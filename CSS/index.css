@@ -1,0 +1,34 @@
+@import url(./header/header.css);
+@import url(./lalyout/layout.css);
+@import url(./gallery/gallery.css);
+@import url(./carousel/carousel.css);
+@import url(./carousel/carousel_1.css);
+@import url(./carousel/carousel_2.css);
+@import url(./carousel/carousel_3.css);
+@import url(./carousel/carousel_4.css);
+
+@import url(./carousel/carousel_1_small.css);
+@import url(./carousel/carousel_2_small.css);
+
+
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  .page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .__link{
+    color: black;
+  }
